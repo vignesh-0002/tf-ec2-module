@@ -1,0 +1,13 @@
+variable "Public_subnet_id" {}
+variable "Private_subnet_id" {}
+variable "database_sn_id" {}
+variable "name" {}
+variable "environment" {}
+variable "tags" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "associate_public_ip_address" {}
+variable "ems_ops_public_sg" {}
+variable "ems_ops_private_sg" {}
+variable "ec2_instance_profile" {}
+variable "keypair-name" {}
